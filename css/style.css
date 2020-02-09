@@ -192,6 +192,20 @@ body{
     background-size: cover;
 }
 
+.series-3{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('../images/series/series-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.series-4{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('../images/series/series-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 .arrow{
     width: 32px;
     height: 23px;
@@ -201,7 +215,7 @@ body{
     background-position: center center;
     background-color: transparent;
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: -35px;
 }
 
@@ -268,6 +282,7 @@ body{
         border: none;
         background-color: #FFFFFF;
         cursor: pointer;
+        z-index: 2;
     }
     .menu-button::before{
         content: '';
@@ -318,6 +333,7 @@ body{
         background-color: #9D2929;
         width: 250px;
         padding-bottom: 40px;
+        z-index: 1;
     }
     .header-active{
         display: flex;
